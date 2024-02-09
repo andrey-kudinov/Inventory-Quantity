@@ -1,4 +1,7 @@
+import dotenv from 'dotenv';
 import { createAdminApiClient } from '@shopify/admin-api-client';
+
+dotenv.config();
 
 const client = createAdminApiClient({
   storeDomain: process.env.STORE_DOMAIN,

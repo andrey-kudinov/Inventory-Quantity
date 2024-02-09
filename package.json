@@ -5,13 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node --env-file=.env express.js",
-    "get-q": "node --env-file=.env get-quantity.js"
+    "dev": "node express.js",
+    "get-q": "node get-quantity.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@shopify/admin-api-client": "^0.2.2",
+    "dotenv": "^16.4.1",
     "express": "^4.18.2"
   }
 }
