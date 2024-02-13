@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@shopify/admin-api-client": "^0.2.2",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.1",
     "express": "^4.18.2"
   }

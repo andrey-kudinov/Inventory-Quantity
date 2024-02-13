@@ -19,7 +19,6 @@ export const handleOperation = async ({ operation, variables = {} }) => {
 
   if (errors) {
     console.error(errors);
-    return;
   }
 
   return data;
